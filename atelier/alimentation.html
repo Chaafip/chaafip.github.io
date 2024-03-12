@@ -46,7 +46,7 @@
           </div>
         </div>
         <div class="col-lg-6">
-          <h1 class="display-5 fw-bold lh-1 mb-1 text-center">Ateliers Alimentation</h1>
+          <h1 class="display-5 fw-bold lh-1 mb-3 text-center">Ateliers Alimentation</h1>
           <p class="lead">Les diététiciennes de l’association CHAAFIP se déplacent dans les structures afin de proposer
             des ateliers de prévention autour de l’alimentation en collectif.
             Ces ateliers peuvent se décliner selon les thématiques suivantes :</p>
@@ -94,6 +94,11 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
   <!-- Custom JavaScript -->
+  <script>
+    var carousel = new bootstrap.Carousel(document.getElementById('carousel'), {
+      interval: 3000 // Set the interval between slides in milliseconds (2000ms = 2 seconds)
+    });
+  </script>
   <script>
     $(document).ready(function () {
       // Load the navbar using AJAX
